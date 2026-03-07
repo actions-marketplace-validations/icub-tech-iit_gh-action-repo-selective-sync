@@ -37,7 +37,7 @@ jobs:
     name: "Publish"
     runs-on: [self-hosted, Linux, X64]
     steps:
-    - uses: mesh-iit/gh-action-repo-selective-sync@v1.0.0
+    - uses: mesh-iit/gh-action-repo-selective-sync@v2
       with:
         recipe-file: '.publish/recipe.yml'
         token-source: ${{ secrets.GITHUB_TOKEN }}
