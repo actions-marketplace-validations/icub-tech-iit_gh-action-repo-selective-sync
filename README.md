@@ -37,7 +37,7 @@ jobs:
     name: "Publish"
     runs-on: [self-hosted, Linux, X64]
     steps:
-    - uses: icub-tech-iit/gh-action-repo-selective-sync@v1.0.0
+    - uses: mesh-iit/gh-action-repo-selective-sync@v1.0.0
       with:
         recipe-file: '.publish/recipe.yml'
         token-source: ${{ secrets.GITHUB_TOKEN }}
@@ -132,9 +132,9 @@ with the data involved in this process.
 ## Examples
 Here's below a list of public repositories that are managed
 leveraging on workflows built on this action:
-- [`icub-tech-iit/cad-mechanics-public`](https://github.com/icub-tech-iit/cad-mechanics-public)
-- [`icub-tech-iit/electronics-boards-public`](https://github.com/icub-tech-iit/electronics-boards-public)
-- [`icub-tech-iit/electronics-wiring-public`](https://github.com/icub-tech-iit/electronics-wiring-public)
+- [`mesh-iit/cad-mechanics-public`](https://github.com/mesh-iit/cad-mechanics-public)
+- [`mesh-iit/electronics-boards-public`](https://github.com/mesh-iit/electronics-boards-public)
+- [`mesh-iit/electronics-wiring-public`](https://github.com/mesh-iit/electronics-wiring-public)
 
 ## Maintainers
 This action is maintained by:
